@@ -35,3 +35,14 @@ class input {
 		   g.IOFunction();
 	}
 }  // } Driver Code Ends
+
+/*
+
+The next() methods scan for tokens (you can think of this as a word) and the nextLine() methods read from the Scanner's current location 
+until the beginning of the next line 
+
+Suppose inout is : "Hello World I am Java"; then String s = sc.next(); -> will return "Hello" .... 
+Now, according to doc., nextLine() returns "the line that was skipped..." 
+hence, s += sc.nextLine(); will be like -> Hello + World I am Java i.e. final string: "Hello World I am Java" 
+
+*/
