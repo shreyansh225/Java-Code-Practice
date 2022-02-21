@@ -27,5 +27,9 @@ public class OperatorEg {
 		System.out.println("b   = "+ b);
 		System.out.println("++a = "+ ++a); // will display the incremented value here itself
 		
+		
+		// Logical Operators   &&, ||, !
+		
+		
 	}
 }
