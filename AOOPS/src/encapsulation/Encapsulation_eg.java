@@ -13,7 +13,7 @@ public class Encapsulation_eg {
 	
 	}
 	
-	private void takeBreak() {                 // private makes method only accessible to the class it is present in; and not even to the package
+	private void takeBreak() {                 // private makes method only accessible to the class in which it is present in; and not even to the package
 		System.out.println("Taking break ");
 	}
 	
