@@ -14,7 +14,7 @@ public class Encapsulation_eg {
 	}
 	
 	private void takeBreak() {                 // private makes method only accessible to the class in which it is present in; and not even to the package
-		System.out.println("Taking break ");
+		System.out.println("Taking break from work ");
 	}
 	
 	protected void project() {                // protected makes method only accessible to the child classes from any package
