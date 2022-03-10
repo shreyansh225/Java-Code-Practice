@@ -44,8 +44,8 @@ class Developer extends Employee {
 
 	}
 					
-								// Since we have a walk method in Employee class
-	void walk() {                //   Thats how this is Runtime Polymorphism     
+								// Since we have a walk method in Employee class(Parent)
+	void walk() {                //  And since we have the walk method here too then Thats how this is Runtime Polymorphism
 		System.out.println("Developer " + name + " is walking");
 	}
 	
@@ -91,7 +91,7 @@ class Employee {         // using this Employee class we can create different Em
 	}
 	
 	void walk(int steps) {
-		System.out.println(name + " walked " + steps + " steps.");
+		System.out.println(name + " walked " + steps + " steps.");   // Compile time polymorphism
 	}
 	
 	void doWork() {
