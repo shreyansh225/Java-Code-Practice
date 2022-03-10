@@ -2,6 +2,7 @@ package aOOPS;
 
 import encapsulation.Encapsulation_eg;
 
+// Java does not support Multiple inheritance, so one child class cannot have multiple parents
 public class Eg_inheritance {
 
 	public static void main(String[] args) {

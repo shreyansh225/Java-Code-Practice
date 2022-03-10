@@ -31,8 +31,8 @@ class Laptop {
 	private int price;    // private is mostly used for validation purpose , as we would only want the admin to be able to change the price details
 
 	public void setPrice(int price) {         // we use getters and setters for encapsulation for security reasons we use private in real time projects
-		// is the user an admin chech validation
-		boolean isAdmin = true;    // after making it true the setPrice will work
+		// is the user an admin check validation
+		boolean isAdmin = true;    // after making it true the setPrice will work 
 		
 		if(!isAdmin) {
 			System.out.println("You cannot set the price");
