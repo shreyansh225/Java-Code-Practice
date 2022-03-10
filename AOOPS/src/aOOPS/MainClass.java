@@ -1,5 +1,8 @@
 package aOOPS;
 
+import encapsulation.Encapsulation_eg;
+
+
 public class MainClass {      //there can only be one public class in a java program
 
 	public static void main(String[] args) {    
@@ -26,12 +29,15 @@ public class MainClass {      //there can only be one public class in a java pro
 		p2.walk(5);
 		
 		System.out.println("Displaying count "+ Person.count);    // can't access count here without making count as static in the Person class
+	
+		Encapsulation_eg ob = new Encapsulation_eg();
+		ob.doWork();
 	}
 }
 
 //Person is a class
 class Person {         // using this Person class we can create different Persons with different names and age
-	String name;       
+	String name;       // if we make it protected then it can only be accessed by its child classes....This is also called Data hiding
 	int age;           // properties
 	String address;
 	
