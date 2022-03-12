@@ -24,9 +24,8 @@ public class Interfaces implements Bike, Robot{  // can implement more than one 
 
 // interfaces provide true Abstraction
 interface Bike{
-	
-  //public abstract void start();
-	
+  
+	//public abstract void start();
 	void start(); // By default all the methods in an interface class are PUBLIC and ABSTRACT too
 					// And since it is by default Abstract, so we don't have to define the body
 					// Therefore cannot make any concrete functions in interface class

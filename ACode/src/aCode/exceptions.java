@@ -9,7 +9,7 @@ public class exceptions {
 		try {
 			System.out.println(2/0);	
 		}
-		catch(ArrayIndexOutOfBoundsException e)     // will only work for catching the arrayIndex error but not the devide by 0 error 
+		catch(ArrayIndexOutOfBoundsException e)     // will only work for catching the arrayIndex error but not the divide by 0 error 
 		{       
 			System.out.println("Error aaya tha");
 			System.out.println(e.getLocalizedMessage());
@@ -31,7 +31,7 @@ public class exceptions {
 		}
 		catch(Exception e)  // Therefore we use just the word Exception to catch any error
 		{       
-			System.out.println("Error aaya tha");
+			System.out.println("Error niche aaya tha");
 			System.out.println(e.getLocalizedMessage());
 		}
 		
